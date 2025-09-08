@@ -13,4 +13,5 @@ if (hari == 5):
 if (hari == 6):
     print("Hari Sabtu")
 if (hari == 7):
+
     print("Hari Minggu")
