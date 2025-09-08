@@ -1,0 +1,15 @@
+# Program Persyaratan Sim
+umur = int(input("masukkan umur Anda = "))
+nilai = int(input("Masukkan nilai tes Anda ="))
+lulus = "Selamat Anda berhak mendapatkan SIM Anda"
+gagal = "Maaf, Anda tidak berhak mendapat SIM anda\nSilahkan coba lagi bulan depan atau tahun depan"
+if (umur > 17):
+    if (nilai < 60):
+        print()
+        print(gagal)
+    else:
+        print()
+        print(lulus)
+else:
+    print()
+    print(gagal)
