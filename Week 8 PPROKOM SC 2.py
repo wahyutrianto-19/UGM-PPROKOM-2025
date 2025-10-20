@@ -15,3 +15,4 @@ nama_teman[indeks] = nama_baru
 print("\nDaftar nama teman setelah diperbarui:")
 for i in range(len(nama_teman)):
     print(f"Indeks {i}: {nama_teman[i]}")
+
